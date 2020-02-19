@@ -30,7 +30,6 @@ export const Reducer = (state = initialState, action) => {
 				  }	};
 
 		case REMOVE_FEATURE:
-				  console.log('remove-feature');
 				return {
 					...state,
 					car: {
